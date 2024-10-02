@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" integrity="sha384-tViUnnbYAV00FLIhhi3v/dWt3Jxw4gZQcNoSCxCIFNJVCx7/D55/wXsrNIRANwdD" crossorigin="anonymous">
+<title>Document</title>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <!----logo should go with img tag-->
+            <h2 id="logo">o<strong>S</strong>as</h2>
+            <ul id="sidetab">
+                
+                  <li><a href="#" class="active">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Portfolio</a></li>
+                  <li><a href="#">Contact</a></li>
+                  
+                  <i class="bi bi-x-lg" onclick="closemenu()"></i>
+            
+                
+            </ul>
+            <i class="bi bi-three-dots-vertical" onclick="openmenu()"></i>
+        </nav>
+
+        <div class="header-txt">
+            <p>Software Developer</p>
+            <h1>Hello, I'm Ebenezer <br> Ighodalo from Nigeria.</h1>
+        </div>
+    </div>
+</div>
+
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Image/yu.png"  >
+
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I'm a Freelance Developer with a dexterity for creating distinct user experience s and capitalizing on on the latest technologies. I have 2 years of experience as regards to Development. I kicked of my learning journey with the courses offered by <a href="">Freecode Camp</a>. I enthusiatic about learning new things in this field and also improving my skills. One of the things that fascinates me is Data and Algorithms this is one of the reasons i'm intrested in Back-end Development, Building Scalable and efficient Web, App and Software.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Certifications</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>Web Development</span><br>Designing Web/App interface</li>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                        <li><span>UI/UX</span><br>Designing Web/App interface</li>
+                    
+                    </ul>
+                </div>
+                <div class="tab-contents"  id="experience">
+                    <ul>
+                        <li><span>2019 - current</span><br>Ig and Associates </li>
+                        <li><span>2023 - current</span><br>Enilogistics</li>
+                        <li><span>2023 - current</span><br>Cephas Technology</li>
+                        
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2024</span><br>FreeCode Camp</li>
+                        <li><span>2025</span><br>University of Lagos</li>
+                        
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="bi bi-code-slash"></i>
+                 <h2>Web Design</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor delectus cum a laudantium officiis. Eos sapiente laudantium illum molestias dolore harum doloremque architecto repellat, asperiores, necessitatibus voluptatum ex molestiae vitae?</p>
+        <a href="#">Learn more</a>    
+        </div>
+            <div>
+                <i class="bi bi-crop"></i>
+                <h2>UI/UX</h2>
+                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor delectus cum a laudantium officiis. Eos sapiente laudantium illum molestias dolore harum doloremque architecto repellat, asperiores, necessitatibus voluptatum ex molestiae vitae?</p>
+                <a href="#">Learn more</a>
+            </div>
+                <div>
+                    <i class="bi bi-app-indicator"></i>
+                    <h2>Web Application</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor delectus cum a laudantium officiis. Eos sapiente laudantium illum molestias dolore harum doloremque architecto repellat, asperiores, necessitatibus voluptatum ex molestiae vitae?</p>
+                    <a href="#">Learn more</a>
+                </div>
+        </div>
+    </div>
+</div>
+<!--------portfolio-----> 
+
+<div>
+    <div id="portfolio">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+            <img src="Image/iii.jpg" alt="">
+            <div class="layer">
+                <h3>Logistics Website</h3>
+                <p>dcgsbcgivkjskdjdjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjdjdjjdjdjjdjdjjjdjjdjdjdjdjdjdjdjdjdjdjdjd. View website.
+
+                </p>
+                <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+
+          </div>
+          <div class="work">
+            <img src="Image/real.jpg " alt="">
+            <div class="layer">
+                <h3>Real Estate Website</h3>
+                <p>A scalable Website that provide solutions for apartment seekers and property exchange.View website.
+
+                </p>
+                <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+        </div>
+        <div class="work">
+            <img src="Image/ad.jpg" alt="">
+            <div class="layer">
+                <h3>Advertising Website</h3>
+                <p>Bringing buyers and sellers from all over the world with the aim of achieving a swift and honest transaction. View website
+                </p>
+                <a href=""><i class="bi bi-box-arrow-up-right"></i></a>
+            </div>
+        </div>
+        </div>
+          </div>
+          <a href="" class="btn">See more</a>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                 <p><i class="bi bi-send"></i>rtwfetgd@gmail.com </p>
+                 <p><i class="bi bi-telephone"></i>123456789</p>
+                 <div class="social-icons">
+                    <a href="#"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#"><i class="bi bi-linkedin"></i></a>
+                    <a href="#"><i class="bi bi-instagram"></i></a>
+                 </div>
+                 <!---add pdf file here for download-->
+                 <a href="" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form >
+                        <input type="text" name="Name" placeholder="Your name">
+                        <input type="email" name="email" placeholder="Your email">
+                        <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="copyright">
+        <p> Copyright  © Osas. Made with Html|Css|JS </p>
+    </footer>
+</div>
+ <script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+
+    }
+    </script>
+<script>
+    var sideta = document.getElementById("sidetab");
+
+    function openmenu(){
+        sideta.style.right = "0";
+    }
+    function closemenu(){
+        sideta.style.right = "-150px";
+    }
+</script>
+</body>
+</html>
